@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Programa que solicita una cadena en JS</h1>
+    <script>
+        let cadena = prompt("Ingrese la cadena de nombres separadas con comas");
+        let palabra = cadena.split(',');
+        palabra.sort();
+        palabra.forEach(elemento => {
+            document.write(elemento + "-");
+        });
+    </script>
+    <h2>Otra forma</h2>
+    <script>
+        let cadena1 = "Mario,Walter,Pedro"
+        let array = cadena1.split(',');
+        array.sort();
+        for (let i = 0; i< array.length; i++) {
+            document.write(array[i]+ "-");
+        }
+    </script>
+
+</body>
+</html>
