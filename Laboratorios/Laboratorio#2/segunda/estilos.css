@@ -1,0 +1,25 @@
+table{
+    width: 100%;
+}
+table, tr, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr{
+    background-color: orangered;
+}
+
+th{
+    color: black;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+td{
+    color: cornflowerblue;
+    font-weight: 500;
+    font-size: 15px;
+}
